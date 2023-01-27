@@ -1,22 +1,24 @@
-# Training-Project
+## Training Project
 
-Completed solution for the next tasks:
+Here's the completed solution for the following tasks:
 
-## Task 1
-### Write a function that takes a signed integer as input and prints its binary representation.
+### Task 1. Binary representation
+Write a function that takes a signed integer as input and prints its binary representation.
 
-## Task 2
-### Write a function to remove consecutively duplicate characters in a string:
+### Task 2. Duplicates removing
+Write a function to remove consecutively duplicate characters in a string:
 ```c++
-void RemoveDups(char* str);
+void RemoveDups( char* str );
+
 // пример использования
-char data[] = "AAA BBB AAA"; RemoveDups(data); printf("%s\n", data); // "A B A"
+char data[] = "AAA BBB AAA";
+RemoveDups( data );
+printf( "%s\n", data ); // "A B A"
 ```
 
-## Task 3
-### Serializing a two-linked list
+### Task 3. Double-linked list with random iterators serialization and deserialization
 
-Implement the functions to serialize and deserialize a doubly linked list.
+Implement the functions to serialize and deserialize a double-linked list.
 The data must be written in binary format.
 The expected algorithmic complexity is less than the quadratic one.
 
